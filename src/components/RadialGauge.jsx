@@ -16,7 +16,7 @@ const RadialGauge = (props) => {
     },
     grid: {
       padding: {
-        left: -10,
+        left: -5,
         right: 0,
       },
     },
@@ -26,13 +26,13 @@ const RadialGauge = (props) => {
         endAngle: 90,
         dataLabels: {
           name: {
-            fontSize: "2rem",
+            fontSize: "1rem",
             color: "white",
-            offsetY: -48,
+            offsetY: -24,
           },
           value: {
             offsetY: 0,
-            fontSize: "4rem",
+            fontSize: "2rem",
             color: "white",
             formatter: function (val) {
               return val + "°C";
@@ -47,7 +47,7 @@ const RadialGauge = (props) => {
           background: "#f2f2f2",
           strokeWidth: "20%",
           opacity: 1,
-          margin: 15,
+          margin: 7,
         },
       },
     },
@@ -77,7 +77,7 @@ const RadialGauge = (props) => {
         options={options}
         series={series}
         type="radialBar"
-        height="350px"
+        height="175px"
       />
     </>
   );
