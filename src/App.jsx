@@ -15,8 +15,8 @@ const App = () => {
           flexDirection: "column",
           alignItems: "center",
           position: "absolute",
-          width: "112px",
-          left: "264px",
+          width: "56px",
+          left: "132px",
         }}
       >
         <p
@@ -34,7 +34,7 @@ const App = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
-          height: "247px"
+          height: "123px"
         }}
       >
         <RadialGauge data={cpu?.temperature} label={"CPU"} />
@@ -50,8 +50,8 @@ const App = () => {
       >
         <div
           style={{
-            height: "200px",
-            width: "280px",
+            height: "100px",
+            width: "140px",
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
@@ -62,7 +62,7 @@ const App = () => {
 
         <div
           style={{
-            width: "280px",
+            width: "140px",
             display: "flex",
             flexDirection: "column",
             gap: "1.5rem",
@@ -89,7 +89,7 @@ const App = () => {
           <div
             className="label-data-container"
             style={{
-              width: "90px",
+              width: "45px",
               marginTop: "1.5rem",
             }}
             key={index}
