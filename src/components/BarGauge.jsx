@@ -91,12 +91,12 @@ const BarGauge = (props) => {
           options={options}
           series={series}
           type="bar"
-          width="180px"
-          height={20}
+          width="45px"
+          height={10}
         />
         <h3
           style={{
-            fontSize: "1.5rem",
+            fontSize: "0.75rem",
             margin: "0",
           }}
         >
@@ -108,13 +108,13 @@ const BarGauge = (props) => {
           display: "flex",
           width: "100%",
           flexDirection: "column",
-          marginLeft: "1.5rem",
+          marginLeft: "0.75rem",
         }}
       >
         <p
           style={{
             display: "block",
-            width: "40px",
+            width: "20px",
             marginTop: "-0.7rem",
           }}
         >
@@ -123,7 +123,7 @@ const BarGauge = (props) => {
         <p
           style={{
             marginTop: "-0.5rem",
-            fontSize: "1.1rem",
+            fontSize: "0.55rem",
           }}
         >
           %
